@@ -13,7 +13,8 @@ import { ItemComponent } from './pages/item/item.component';
 import { HttpClient } from '@angular/common/http';
 import { from } from 'rxjs';
 import {FormsModule} from '@angular/forms';
-import {ReactiveFormsModule} from '@angular/forms'
+import {ReactiveFormsModule} from '@angular/forms';
+import { BuscarComponent } from './pages/buscar/buscar.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +22,8 @@ import {ReactiveFormsModule} from '@angular/forms'
     FootersComponent,
     PortafolioComponent,
     AboutComponent,
-    ItemComponent
+    ItemComponent,
+    BuscarComponent
   ],
   imports: [
     BrowserModule,

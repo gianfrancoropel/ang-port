@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import {InfoPagina} from '../info-pagina.interface';
+import {InfoPagina} from '../interfaces/info-pagina.interface';
 
 @Injectable({
   providedIn: 'root'
@@ -26,6 +26,6 @@ equipo:any[]=[];
     .subscribe( (resp:any[]) => {
       this.equipo = resp;
     });
-  
+    
   }
 }

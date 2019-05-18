@@ -14,5 +14,8 @@ export class AboutComponent implements OnInit {
 
   ngOnInit() {
   }
+  BuscarProducto(termino:string){
+    console.log(termino)
+  }
 
 }
